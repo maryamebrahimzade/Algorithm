@@ -1,6 +1,4 @@
-package com.example.algoritm.selectionsort;
-
-import java.util.Arrays;
+package com.example.algoritm.selectionsort.smallestelement;
 
 public class SortArray {
     private int a;
@@ -26,13 +24,6 @@ public class SortArray {
             }
         }
         return smallest_index;
-    }
-}
-
-class Main {
-    public static void main(String[] args) {
-        Integer[] array = new Integer[]{5, 3, 6, 2, 10};
-        System.out.println(Arrays.toString(SortArray.sort(array)));
     }
 }
 
