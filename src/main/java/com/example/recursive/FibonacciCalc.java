@@ -1,4 +1,4 @@
-package com.example.algoritm.recursive;
+package com.example.recursive;
 
 public class FibonacciCalc {
     public static int fibRecursion(int number) {

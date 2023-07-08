@@ -1,4 +1,4 @@
-package com.example.algoritm.selectionsort.exampletwo;
+package com.example.sort.selectionsort.exampletwo;
 
 import java.util.Scanner;
 

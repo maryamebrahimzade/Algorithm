@@ -1,4 +1,4 @@
-package com.example.algoritm.recursive;
+package com.example.recursive;
 
 public class Factorial {
     private static int factRecursive(int number) {

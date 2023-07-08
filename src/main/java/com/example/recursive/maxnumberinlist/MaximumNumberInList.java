@@ -1,4 +1,4 @@
-package com.example.algoritm.recursive;
+package com.example.recursive.maxnumberinlist;
 
 public class MaximumNumberInList {
     private static int MaxRecursive(Integer[] arr, int length) {
@@ -8,7 +8,7 @@ public class MaximumNumberInList {
     }
 
     public static void main(String[] args) {
-        Integer[] array = {3, 23, 10, 40};
+        Integer[] array = {34, 78, 10, 90,146,7};
         System.out.println("Maximum number in a list:" + MaxRecursive(array, array.length));
     }
 }

@@ -1,4 +1,4 @@
-package com.example.algoritm.recursive;
+package com.example.recursive;
 
 public class CountItemsInList {
     public static Integer recursiveCount(int length) {
@@ -10,8 +10,8 @@ public class CountItemsInList {
     }
 
     public static Integer recursiveCount(int[] array, int length) {
-        if (length == 0) {
-            return 0;
+        if (length == 1) {
+            return 1;
         } else {
             return recursiveCount(array, length - 1) + 1;
         }

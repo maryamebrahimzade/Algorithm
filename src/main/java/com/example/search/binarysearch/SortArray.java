@@ -1,7 +1,6 @@
-package com.example.algoritm.binarysearch;
+package com.example.search.binarysearch;
 
 public class SortArray {
-    private int a;
 
     public static Integer[] sort(Integer[] array) {
         Integer[] sortedArray = new Integer[array.length];

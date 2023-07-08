@@ -1,4 +1,4 @@
-package com.example.algoritm.quicksort;
+package com.example.sort.quicksort;
 
 public class QuicksortMedianExample {
     private static int []a={9,8,2,1,6,3};

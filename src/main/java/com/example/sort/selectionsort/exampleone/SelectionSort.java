@@ -1,4 +1,4 @@
-package com.example.algoritm.selectionsort.exampleone;
+package com.example.sort.selectionsort.exampleone;
 
 public class SelectionSort {
     public static void Sort(int[] array) {

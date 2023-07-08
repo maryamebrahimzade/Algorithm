@@ -1,4 +1,4 @@
-package com.example.algoritm.selectionsort.smallestelement;
+package com.example.sort.selectionsort.smallestelement;
 
 public class SortArray {
     private int a;

@@ -1,4 +1,4 @@
-package com.example.algoritm.selectionsort.smallestelement;
+package com.example.sort.selectionsort.smallestelement;
 
 import java.util.Arrays;
 

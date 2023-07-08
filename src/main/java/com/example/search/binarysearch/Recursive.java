@@ -1,4 +1,4 @@
-package com.example.algoritm.binarysearch;
+package com.example.search.binarysearch;
 
 public class Recursive {
     public static int binarySearch(int[] elements, int beg, int end, int value) {

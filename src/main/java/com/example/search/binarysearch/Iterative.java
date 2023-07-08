@@ -1,4 +1,4 @@
-package com.example.algoritm.binarysearch;
+package com.example.search.binarysearch;
 
 public class Iterative {
     public static Integer binarySearch(Integer[] elements, int low, int high, int item) {

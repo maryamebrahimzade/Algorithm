@@ -1,4 +1,4 @@
-package com.example.algoritm.quicksort;
+package com.example.sort.quicksort;
 
 import java.util.Arrays;
 import java.util.Random;
