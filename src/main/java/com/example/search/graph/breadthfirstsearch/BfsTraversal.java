@@ -3,12 +3,12 @@ package com.example.search.graph.breadthfirstsearch;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BFSTraversal { //bidirectional
+public class BfsTraversal { //bidirectional
     private int node; //total number of nodes in the graph
     private LinkedList<Integer> adj[]; //adjacency list
     private Queue<Integer> que; //maintaining a queue
 
-    public BFSTraversal(int v) {
+    public BfsTraversal(int v) {
         node = v;
         adj = new LinkedList[node];
         for (int i = 0; i < v; i++) {

@@ -1,8 +1,8 @@
 package com.example.search.graph.breadthfirstsearch;
 
-public class BFSMain {
+public class BfsMain {
     public static void main(String[] args) {
-        BFSTraversal graph = new BFSTraversal(6);
+        BfsTraversal graph = new BfsTraversal(6);
         graph.insertEdge(0, 1);
         graph.insertEdge(0, 3);
         graph.insertEdge(0, 4);
