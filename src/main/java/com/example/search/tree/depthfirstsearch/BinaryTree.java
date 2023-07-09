@@ -1,11 +1,8 @@
-package com.example.search.tree;
-
-import java.util.LinkedList;
-import java.util.Queue;
+package com.example.search.tree.depthfirstsearch;
 
 public class BinaryTree {
-    public static void printInorder(TreeNode treeNode){
-        if(treeNode==null){
+    public static void printInorder(TreeNode treeNode) {
+        if (treeNode == null) {
             return;
         }
         printInorder(treeNode.left); // Traverse left
@@ -30,23 +27,4 @@ public class BinaryTree {
         printPostOrder((treeNode.right)); // Traverse right
         System.out.print(treeNode.data + "->"); // Traverse root
     }
-
-    public static void printLevelOrder(TreeNode root) {
-        Queue<TreeNode> queue = new LinkedList<>(); //Initialize an empty queue
-        queue.add(root); //Start with setting temp as root
-        while (!queue.isEmpty()) {
-            TreeNode temp = queue.poll();
-            System.out.print(temp.data + " "); //Print data from temp.
-
-            /*add left child to the queue */
-            if(temp.left!=null) {
-                queue.add(temp.left);
-            }
-            /*add right child to the queue */
-            if(temp.right!=null){
-                queue.add(temp.right);
-            }
-        }
-    }
-
 }

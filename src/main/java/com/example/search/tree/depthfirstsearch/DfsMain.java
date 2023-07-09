@@ -1,7 +1,6 @@
 package com.example.search.tree.depthfirstsearch;
 
-
-public class Main {
+public class DfsMain {
     public static void main(String[] args) {
         TreeNode root=new TreeNode(0);
         root.left=new TreeNode(1);
@@ -14,7 +13,5 @@ public class Main {
         BinaryTree.printPreorder(root);
         System.out.print("\nPostorder traversal: ");
         BinaryTree.printPostOrder(root);
-        System.out.print("\nLevel Order traversal: ");
-        BinaryTree.printLevelOrder(root);
     }
 }

@@ -1,7 +1,5 @@
 package com.example.search.tree.breadthfirstsearch;
-
-
-public class Main {
+public class BfsMain {
     public static void main(String[] args) {
         TreeNode root=new TreeNode(0);
         root.left=new TreeNode(1);

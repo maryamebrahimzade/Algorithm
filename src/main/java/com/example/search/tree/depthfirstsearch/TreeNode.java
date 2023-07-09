@@ -1,4 +1,4 @@
-package com.example.search.tree;
+package com.example.search.tree.depthfirstsearch;
 
 public class TreeNode {
     int data;
