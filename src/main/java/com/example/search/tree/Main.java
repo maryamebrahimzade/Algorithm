@@ -1,7 +1,7 @@
 package com.example.search.tree;
 
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         TreeNode root=new TreeNode(0);
         root.left=new TreeNode(1);
@@ -9,12 +9,12 @@ public class main {
         root.left.left=new TreeNode(3);
         root.left.right=new TreeNode(4);
         System.out.print("Inorder traversal: ");
-        InOrder.inOrderTraversal(root);
+        BinaryTree.printInorder(root);
         System.out.print("\nPreorder traversal: ");
-        PreOrder.preorderTraversal(root);
+        BinaryTree.printPreorder(root);
         System.out.print("\nPostorder traversal: ");
-        PostOrder.postOrderTraversal(root);
+        BinaryTree.printPostOrder(root);
         System.out.print("\nLevel Order traversal: ");
-        LevelOrder.printLevelOrder(root);
+        BinaryTree.printLevelOrder(root);
     }
 }
