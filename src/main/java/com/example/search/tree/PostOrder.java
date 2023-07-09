@@ -1,4 +1,4 @@
-package com.example.search.depthfirstsearch.tree;
+package com.example.search.tree;
 
 public class PostOrder {
     public static void postOrderTraversal(TreeNode treeNode) {
@@ -7,6 +7,6 @@ public class PostOrder {
         }
         postOrderTraversal(treeNode.left); // Traverse left
         postOrderTraversal((treeNode.right)); // Traverse right
-        System.out.println(treeNode.data + "->"); // Traverse root
+        System.out.print(treeNode.data + "->"); // Traverse root
     }
 }

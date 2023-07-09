@@ -1,4 +1,4 @@
-package com.example.search.breadthfirstsearch.tree;
+package com.example.search.tree;
 
 
 import java.util.LinkedList;

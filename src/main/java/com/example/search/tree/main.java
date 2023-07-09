@@ -1,4 +1,4 @@
-package com.example.search.depthfirstsearch.tree;
+package com.example.search.tree;
 
 
 public class main {
@@ -8,12 +8,13 @@ public class main {
         root.right=new TreeNode(2);
         root.left.left=new TreeNode(3);
         root.left.right=new TreeNode(4);
-        System.out.println("Inorder traversal");
+        System.out.print("Inorder traversal: ");
         InOrder.inOrderTraversal(root);
-        System.out.println("\nPreorder traversal ");
+        System.out.print("\nPreorder traversal: ");
         PreOrder.preorderTraversal(root);
-
-        System.out.println("\nPostorder traversal");
+        System.out.print("\nPostorder traversal: ");
         PostOrder.postOrderTraversal(root);
+        System.out.print("\nLevel Order traversal: ");
+        LevelOrder.printLevelOrder(root);
     }
 }
