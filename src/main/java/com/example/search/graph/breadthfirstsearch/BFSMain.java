@@ -1,4 +1,4 @@
-package com.example.search.breadthfirstsearch;
+package com.example.search.graph.breadthfirstsearch;
 
 public class BFSMain {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.example.search.breadthfirstsearch;
+package com.example.search.graph.breadthfirstsearch;
 
 import java.util.LinkedList;
 import java.util.Queue;
