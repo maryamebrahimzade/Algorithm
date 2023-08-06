@@ -16,7 +16,7 @@ public class SelectionSort {
     }
 
     public static void main(String[] args) {
-        int[] array = {5, 10, 3, 9, 4, 1, 6, 2, 8, 7};
+        int[] array = {5,3,7,2,4};
         System.out.print("Before Selection Sort: ");
         for (int i : array) {
             System.out.print(i + " ");
