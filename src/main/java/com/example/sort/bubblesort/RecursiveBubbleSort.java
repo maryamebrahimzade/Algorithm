@@ -6,7 +6,7 @@ public class RecursiveBubbleSort {
         if (array.length == 1) { // Base case
             return;
         }
-        for (int i = 0; i < array.length - 1; i++) {
+        for (int i = 0; i < length; i++) {
             if (array[i] > array[i + 1]) { //swap
                 int temp = array[i];
                 array[i] = array[i + 1];
@@ -31,7 +31,7 @@ class RecursiveMain{
         System.out.print("Array Before Bubble Sort:");
         RecursiveBubbleSort.printArray(array);
         System.out.println();
-        RecursiveBubbleSort.recursiveSort(array, array.length);
+        RecursiveBubbleSort.recursiveSort(array, array.length-1);
         System.out.print("Array After Bubble Sort:");
         RecursiveBubbleSort.printArray(array);
     }
