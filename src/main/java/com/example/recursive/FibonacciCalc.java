@@ -11,7 +11,7 @@ public class FibonacciCalc {
     }
 
     public static void main(String[] args) {
-        int num = 9;
+        int num = 4;
         System.out.println("Fibonacci Calc of " + num + " is: " + fibRecursion(num));
         System.out.print("Fibonacci Series of " + num + " is: \n");
         for (int i = 0; i < num; i++) {
